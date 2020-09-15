@@ -1,0 +1,14 @@
+footer {
+    background-color: rgb(231, 231, 231);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+footer p {
+    margin: 0px;
+    padding: 15px;
+}

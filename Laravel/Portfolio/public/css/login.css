@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/Lato-Regular.woff');
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-image: linear-gradient(to right, #292a33, #2a2c36);
+}
+
+.login-page {
+  width: 360px;
+  padding: 60px 0 0;
+  margin: auto;
+}
+.form input {
+	font-family: "Lato", sans-serif;
+	outline: 0;
+	background: #2a2c35;
+	width: 100%;
+	border: 2px solid #121317;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 17px;
+	color: #aeaeae;
+}
+.form button {
+  font-family: "Lato-Light", sans-serif;
+  text-transform: uppercase;
+	outline: 0;
+	background: #121317;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 17px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+	background: white;
+	color: #121317;
+}
+.form .forgot {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 13px;
+  float:left;
+}
+.logo {
+	max-width:250px;
+	margin-bottom: 25px;
+}
+.modal-body {
+  text-align: left !important;
+}

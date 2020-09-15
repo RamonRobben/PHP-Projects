@@ -1,0 +1,105 @@
+html, body {
+  background-color: rgb(238, 238, 238);
+}
+
+.nav,
+.banner {
+  background-image: linear-gradient(to right, #00075c, #1a3de1);
+}
+
+.container {
+  height: 100%;
+}
+
+.navbar {
+  padding: 8px 0px;
+}
+
+.banner {
+  height: 400px;
+  display: flex;
+  margin-top: -56px;
+}
+
+.banner .wrapper {
+  display: flex;
+  justify-content: center;
+
+  height: auto;
+  margin: auto;
+}
+
+.banner .wrapper .content {
+  padding: 15px 0px 0px 0px;
+  color: white;
+}
+
+.banner .wrapper .image {
+  height: 100%;
+  width: 100%;
+}
+
+.banner .wrapper .image img {
+  border-radius: 50%;
+}
+
+
+.container-fluid {
+  padding: 0px;
+}
+
+.col {
+  margin: 30px 0px 0px 0px;
+}
+
+.tile {
+  background-color: white;
+  padding: 20px;
+}
+
+.title {
+  color: rgb(104, 104, 104);
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 992px) {
+  .banner {
+    height: 100%;
+  }
+  .banner .wrapper {
+    text-align: center;
+    padding-top: 70px;
+  }
+}
+
+.tile ul {
+  padding: 0px;
+}
+
+.tile ul li {
+  list-style: none;
+}
+
+.badge-pill {
+  padding: 10px 15px;
+}
+
+.tile-item {
+  padding: 0px 20px;
+  margin: 0px -20px;
+  border-left: 2px solid #007bff;
+}
+
+.tile-item p {
+  margin: 0px;
+}
+
+.tile-item .duration,
+.tile-item .location {
+  color: #272727;
+  font-size: 14px;
+}
+
+.tile-item .summary {
+  padding: 10px 0px;
+}
